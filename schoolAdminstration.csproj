@@ -92,6 +92,12 @@
 	  <MauiXaml Update="Pages\attendance.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\attendance1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\attendance2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\bus_info.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

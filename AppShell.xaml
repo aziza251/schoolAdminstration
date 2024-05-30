@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
     x:Class="schoolAdminstration.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -6,113 +5,92 @@
     xmlns:local="clr-namespace:schoolAdminstration"
     Shell.FlyoutBehavior="Flyout"
     FlyoutBackgroundColor="Orange"
-    
     Title="schoolAdminstration">
 
+    <!-- Define a custom DataTemplate for Flyout Items -->
     <Shell.ItemTemplate>
         <DataTemplate>
-            <StackLayout Orientation="Horizontal" Spacing="0">
-                <Image Source="{Binding Icon}" WidthRequest="20"/>
-                <Button Text="{Binding Title}"
-                    HorizontalOptions="StartAndExpand"
-                    VerticalOptions="StartAndExpand"
-                    TextColor="White"
-                    BackgroundColor="Transparent"
-                    CornerRadius="1"
-                    HeightRequest="30"
-                    FontAttributes="Bold"                  
-                  
-                        />
-
-            </StackLayout>
+            <Grid BackgroundColor="Black" Padding="10" WidthRequest="300">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="{Binding Icon}" WidthRequest="20" HeightRequest="20"/>
+                    <Label Text="{Binding Title}" VerticalOptions="Center" TextColor="Orange" FontAttributes="Bold" BackgroundColor="Black"/>
+                </StackLayout>
+            </Grid>
         </DataTemplate>
     </Shell.ItemTemplate>
 
-
-    <FlyoutItem Title="Welcome Page" Icon="home.png">
     <ShellContent
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-    </FlyoutItem>
 
-    <FlyoutItem Title="Login page" Icon="login.png">
-    <ShellContent
-      ContentTemplate="{DataTemplate local:login}"
-      Route="login" />
-    </FlyoutItem>
-
-    <FlyoutItem Title="Login 2">
-        <ShellContent
-       ContentTemplate="{DataTemplate local:login2}"
-       Route="login2" />
-    </FlyoutItem>
-
-    <FlyoutItem Title="Home">
+    <!-- Flyout Items -->
+    <FlyoutItem Title="Home" Icon="icon_home.png">
         <ShellContent
             ContentTemplate="{DataTemplate local:home}"
             Route="home" />
     </FlyoutItem>
-    <FlyoutItem Title="Add new bus">
-       <ShellContent ContentTemplate="{DataTemplate local:add_new_bus}"
-         Route="add_new_bus" />
+
+    <FlyoutItem Title="Add new bus" Icon="icon_bus.png">
+        <ShellContent ContentTemplate="{DataTemplate local:add_new_bus}"
+            Route="add_new_bus" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Add new Employee">
-        <ShellContent
-    ContentTemplate="{DataTemplate local:add_new_employee}"
-    Route="add_new_employee" />
+    <FlyoutItem Title="Add new Employee" Icon="icon_employee.png">
+        <ShellContent ContentTemplate="{DataTemplate local:add_new_employee}"
+            Route="add_new_employee" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Assign Bus to student">
-        <ShellContent
-    ContentTemplate="{DataTemplate local:assign_bus_to_student}"
-    Route="assign_bus_to_student" />
+    <FlyoutItem Title="Assign Bus to student" Icon="icon_assign.png">
+        <ShellContent ContentTemplate="{DataTemplate local:assign_bus_to_student}"
+            Route="assign_bus_to_student" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus Student list">
-        <ShellContent
-    ContentTemplate="{DataTemplate local:bus_student_list}"
-    Route="bus_student_list" />
+    <FlyoutItem Title="Bus Student list" Icon="icon_list.png">
+        <ShellContent ContentTemplate="{DataTemplate local:bus_student_list}"
+            Route="bus_student_list" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus Information">
-        <ShellContent
-            ContentTemplate="{DataTemplate local:bus_info}"
+    <FlyoutItem Title="Bus Information" Icon="icon_info.png">
+        <ShellContent ContentTemplate="{DataTemplate local:bus_info}"
             Route="bus_info" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Edit employee">
-        <ShellContent
-        ContentTemplate="{DataTemplate local:edit_employee}"
-        Route="edit_employee" />
+    <FlyoutItem Title="Edit employee" Icon="icon_edit.png">
+        <ShellContent ContentTemplate="{DataTemplate local:edit_employee}"
+            Route="edit_employee" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Student Information">
-        <ShellContent
-    ContentTemplate="{DataTemplate local:student_info}"
-    Route="student_info" />
+    <FlyoutItem Title="Student Information" Icon="icon_student.png">
+        <ShellContent ContentTemplate="{DataTemplate local:student_info}"
+            Route="student_info" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Attendance">
-        <ShellContent
-    ContentTemplate="{DataTemplate local:attendance}"
-    Route="attendance" />   
+    <FlyoutItem Title="Attendance" Icon="icon_attendance.png">
+        <ShellContent ContentTemplate="{DataTemplate local:attendance}"
+            Route="attendance" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus Schedule">
-        <ShellContent
-        ContentTemplate="{DataTemplate local:bus_schedule}"
-        Route="bus_schedule" />
+    <FlyoutItem Title="Bus Schedule" Icon="icon_schedule.png">
+        <ShellContent ContentTemplate="{DataTemplate local:bus_schedule}"
+            Route="bus_schedule" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus RoadMap">
-        <ShellContent
-    ContentTemplate="{DataTemplate local:bus_road_map}"
-    Route="bus_road_map" />
+    <FlyoutItem Title="Bus RoadMap" Icon="icon_roadmap.png">
+        <ShellContent ContentTemplate="{DataTemplate local:bus_road_map}"
+            Route="bus_road_map" />
     </FlyoutItem>
-    
-    
-   
-    
-    
+
+    <!-- Additional ShellContent items -->
+    <ShellContent ContentTemplate="{DataTemplate local:attendance1}"
+        Route="attendance1" />
+
+    <ShellContent ContentTemplate="{DataTemplate local:attendance2}"
+        Route="attendance2" />
+
+    <ShellContent ContentTemplate="{DataTemplate local:login}"
+        Route="login" />
+
+    <ShellContent ContentTemplate="{DataTemplate local:login2}"
+        Route="login2" />
+
 </Shell>
