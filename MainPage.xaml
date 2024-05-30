@@ -4,7 +4,7 @@
              x:Class="schoolAdminstration.MainPage">
 
 
-    <StackLayout BackgroundColor="Orange">
+    <StackLayout BackgroundColor="Orange" >
 
         <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="200"   Margin=" 80" HorizontalOptions="Center" VerticalOptions="Center">
             <Image Source="logo_bus.png"   HeightRequest="350" WidthRequest="350"/>
@@ -12,7 +12,7 @@
         </Frame>
 
         <Button x:Name="login" Text="Login" Clicked="login_Clicked"
-                WidthRequest="150" HeightRequest="30"
+                WidthRequest="150" HeightRequest="50"
                 BackgroundColor="Black"
                 TextColor="orange"
                 FontAttributes="Bold"
