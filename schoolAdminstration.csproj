@@ -65,6 +65,7 @@
 	  <None Remove="Resources\Images\bus_road_map.jpg" />
 	  <None Remove="Resources\Images\bus_schedule.jpg" />
 	  <None Remove="Resources\Images\bus_student_list.jpg" />
+	  <None Remove="Resources\Images\Calendar.png" />
 	  <None Remove="Resources\Images\edit_employee.jpg" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\homewhite.png" />

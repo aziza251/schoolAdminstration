@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="schoolAdminstration.edit_employee"
              >
-    <VerticalStackLayout Spacing="20" Margin="200">
+    <VerticalStackLayout Spacing="20" Margin="150">
         <Label 
             Text="Edit Bus Employee"
             HorizontalOptions="Center"
@@ -27,6 +27,21 @@
         HorizontalOptions="Center"
         WidthRequest="300"
         />
+
+        <StackLayout Orientation="Horizontal" Spacing="50" HorizontalOptions="Center">
+            <Button Text="Cancel"
+                    WidthRequest="90"
+                    BackgroundColor="Black"
+                    TextColor="Orange"
+                    FontAttributes="Bold"
+                    />
+            <Button Text="Save"
+                    WidthRequest="90"
+                    BackgroundColor="Black"
+                    TextColor="Orange"
+                    FontAttributes="Bold"
+                    />
+        </StackLayout>
 
     </VerticalStackLayout>
 </ContentPage>
