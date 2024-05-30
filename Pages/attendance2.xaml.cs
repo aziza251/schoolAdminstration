@@ -6,4 +6,9 @@ public partial class attendance2 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void ImageButton_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -67,6 +67,8 @@
 	  <None Remove="Resources\Images\bus_schedule.jpg" />
 	  <None Remove="Resources\Images\bus_student_list.jpg" />
 	  <None Remove="Resources\Images\Calendar.png" />
+	  <None Remove="Resources\Images\checkbox.png" />
+	  <None Remove="Resources\Images\cross.png" />
 	  <None Remove="Resources\Images\edit_employee.jpg" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\homewhite.png" />
@@ -84,7 +86,9 @@
 	  <None Remove="Resources\Images\orange_student.png" />
 	  <None Remove="Resources\Images\orange_student2.png" />
 	  <None Remove="Resources\Images\pdf.png" />
+	  <None Remove="Resources\Images\student.png" />
 	  <None Remove="Resources\Images\student_ino.jpg" />
+	  <None Remove="Resources\Images\tick.png" />
 	</ItemGroup>
 
 	<ItemGroup>
