@@ -61,6 +61,7 @@
 	  <None Remove="Resources\Images\add_new_bus.jpg" />
 	  <None Remove="Resources\Images\assign_bus_tostudent.jpg" />
 	  <None Remove="Resources\Images\attendance_busnerede.jpg" />
+	  <None Remove="Resources\Images\blach_schedule.png" />
 	  <None Remove="Resources\Images\bus_info.jpg" />
 	  <None Remove="Resources\Images\bus_road_map.jpg" />
 	  <None Remove="Resources\Images\bus_schedule.jpg" />
@@ -81,6 +82,7 @@
 	  <None Remove="Resources\Images\orange_schedule.png" />
 	  <None Remove="Resources\Images\orange_student.png" />
 	  <None Remove="Resources\Images\orange_student2.png" />
+	  <None Remove="Resources\Images\pdf.png" />
 	  <None Remove="Resources\Images\student_ino.jpg" />
 	</ItemGroup>
 
