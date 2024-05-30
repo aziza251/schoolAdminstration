@@ -6,4 +6,9 @@ public partial class add_new_bus : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Save_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
