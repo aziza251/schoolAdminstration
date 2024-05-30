@@ -23,7 +23,7 @@
                     <Label Text="Station Name" FontAttributes="Bold" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="5">
-                    <Image Source="student.png" WidthRequest="20"/>
+                    <Image Source="student5.png" WidthRequest="20"/>
                     <Label Text="Student Name" FontAttributes="Bold"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Spacing="5">
