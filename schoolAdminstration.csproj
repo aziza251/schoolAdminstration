@@ -66,6 +66,9 @@
 	  <None Remove="Resources\Images\bus_schedule.jpg" />
 	  <None Remove="Resources\Images\bus_student_list.jpg" />
 	  <None Remove="Resources\Images\edit_employee.jpg" />
+	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\homewhite.png" />
+	  <None Remove="Resources\Images\login.png" />
 	  <None Remove="Resources\Images\logo_bus.png" />
 	  <None Remove="Resources\Images\student_ino.jpg" />
 	</ItemGroup>

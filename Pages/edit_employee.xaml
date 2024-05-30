@@ -2,11 +2,31 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="schoolAdminstration.edit_employee"
-             Title="edit_employee">
-    <VerticalStackLayout>
+             >
+    <VerticalStackLayout Spacing="20" Margin="200">
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            Text="Edit Bus Employee"
+            HorizontalOptions="Center"
+            FontSize="Large"
+            FontAttributes="Bold"
+            />
+        <Picker x:Name="busDriver"
+                Title="Select Bus Driver"
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                />
+
+        <Picker x:Name="asst1"
+                Title="Select Bus Assistant 1"
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                />
+
+        <Picker x:Name="asst2"
+        Title="Select Bus Assistant 2"
+        HorizontalOptions="Center"
+        WidthRequest="300"
+        />
+
     </VerticalStackLayout>
 </ContentPage>
