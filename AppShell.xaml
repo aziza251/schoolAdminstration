@@ -30,22 +30,22 @@
             Route="home" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Add new bus" Icon="orange_bus.png">
+    <FlyoutItem Title="Add New Bus" Icon="orange_bus.png">
         <ShellContent ContentTemplate="{DataTemplate local:add_new_bus}"
             Route="add_new_bus" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Add new Employee" Icon="orange_man.png">
+    <FlyoutItem Title="Add New Employee" Icon="orange_man.png">
         <ShellContent ContentTemplate="{DataTemplate local:add_new_employee}"
             Route="add_new_employee" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Assign Bus to student" Icon="orange_student.png">
+    <FlyoutItem Title="Assign Bus To Student" Icon="orange_student.png">
         <ShellContent ContentTemplate="{DataTemplate local:assign_bus_to_student}"
             Route="assign_bus_to_student" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus Student list" Icon="orange_list.png">
+    <FlyoutItem Title="Bus Student List" Icon="orange_list.png">
         <ShellContent ContentTemplate="{DataTemplate local:bus_student_list}"
             Route="bus_student_list" />
     </FlyoutItem>
@@ -55,7 +55,7 @@
             Route="bus_info" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Edit employee" Icon="orange_edit.png">
+    <FlyoutItem Title="Edit Employee" Icon="orange_edit.png">
         <ShellContent ContentTemplate="{DataTemplate local:edit_employee}"
             Route="edit_employee" />
     </FlyoutItem>
