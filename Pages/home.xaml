@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="schoolAdminstration.home">
+         
+    <VerticalStackLayout>
+       
+
+            <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="90"  HeightRequest="80" WidthRequest="80"
+                   Margin="0,0,1100,0">
+            <Image Source="logo_bus.png" HorizontalOptions="Center" VerticalOptions="Center" />
+            </Frame>
+
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="40" Margin="200,0,200,0">
+            <ImageButton Source="add_new_bus.jpg" 
+                         HeightRequest="170"
+                         WidthRequest="170"
+                         Clicked="add_new_bus_Clicked"/>
+
+            <ImageButton Source="addnew_employee.png" 
+                         HeightRequest="170"
+                         WidthRequest="170"
+                         Clicked="ImageButton_Clicked"/>
+            
+            <ImageButton Source="assign_bus_tostudent.jpg" 
+                         HeightRequest="170"
+                         WidthRequest="170"
+                       Clicked="ImageButton_Clicked_1"/>
+            
+            <ImageButton Source="bus_student_list.jpg" 
+                         HeightRequest="170"
+                         WidthRequest="170"
+                          Clicked="ImageButton_Clicked_2"/>
+             
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="140" Margin="200,0,200,0">
+            <Label Text=" Add New Bus"
+           FontAttributes="Bold"
+            FontSize="13"
+            TextColor="Black"
+           WidthRequest="70"
+            HorizontalTextAlignment="Center"/>
+
+            <Label Text=" Add New Employee"
+FontAttributes="Bold"
+ FontSize="13"
+ TextColor="Black"
+WidthRequest="70"
+ HorizontalTextAlignment="Center"/>
+
+            <Label Text=" Assign Bus To Student"
+FontAttributes="Bold"
+ FontSize="13"
+ TextColor="Black"
+WidthRequest="73"
+ HorizontalTextAlignment="Center"/>
+
+            <Label Text="Bus Student List"
+FontAttributes="Bold"
+ FontSize="13"
+ TextColor="Black"
+WidthRequest="75"
+ HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="40" Margin="200,10,200,0">
+            <ImageButton Source="bus_info.jpg" 
+                  HeightRequest="170"
+                  WidthRequest="170"
+                  Clicked="ImageButton_Clicked_3"/>
+
+            <ImageButton Source="edit_employee.jpg" 
+                  HeightRequest="170"
+                  WidthRequest="170"
+                 Clicked="ImageButton_Clicked_4"/>
+
+            <ImageButton Source="student_ino.jpg" 
+                  HeightRequest="170"
+                  WidthRequest="170"
+                  Clicked="ImageButton_Clicked_5"/>
+
+            <ImageButton Source="attendance_busnerede.jpg" 
+                  HeightRequest="170"
+                  WidthRequest="170"
+                  Clicked="ImageButton_Clicked_6"/>
+
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="140" Margin="200,10,200,0">
+            <Label Text="Bus Info"
+            FontAttributes="Bold"
+             FontSize="13"
+             TextColor="Black"
+            WidthRequest="70"
+             HorizontalTextAlignment="Center"/>
+
+            <Label Text="Edit Employee"
+       FontAttributes="Bold"
+  FontSize="13"
+  TextColor="Black"
+ WidthRequest="70"
+  HorizontalTextAlignment="Center"/>
+
+            <Label Text="Student Info"
+ FontAttributes="Bold"
+  FontSize="13"
+  TextColor="Black"
+ WidthRequest="73"
+  HorizontalTextAlignment="Center"/>
+
+            <Label Text="Attendance"
+ FontAttributes="Bold"
+  FontSize="13"
+  TextColor="Black"
+ WidthRequest="75"
+  HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+
+
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="40" Margin="200,5,200,0">
+            <ImageButton Source="bus_schedule.jpg" 
+           HeightRequest="170"
+           WidthRequest="170"
+          Clicked="ImageButton_Clicked_7"/>
+
+            <ImageButton Source="bus_road_map.jpg" 
+           HeightRequest="170"
+           WidthRequest="170"
+          Clicked="ImageButton_Clicked_8"/>
+
+
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="140" Margin="200,0,200,0">
+            <Label Text="Bus Schedule"
+            FontAttributes="Bold"
+             FontSize="13"
+             TextColor="Black"
+            WidthRequest="75"
+             HorizontalTextAlignment="Center"/>
+
+            <Label Text="Bus Road Map"
+        FontAttributes="Bold"
+        FontSize="13"
+        TextColor="Black"
+        WidthRequest="75"
+        HorizontalTextAlignment="Center"/>
+
+   
+
+        </StackLayout>
+
+
+
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

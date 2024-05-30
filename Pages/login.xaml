@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="schoolAdminstration.login"  >
+        
+    <VerticalStackLayout BackgroundColor="Orange">
+        <Label 
+            Text="Login"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontAttributes="Bold"
+            FontSize="30"
+            TextColor="Black"
+            Margin="0,250,0,0"/>
+        <Label Text="School ID"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" 
+               FontSize="15"
+               TextColor="Black"
+               Margin="0,30,225,0"/>
+        
+        <Entry x:Name="School_id"
+               HeightRequest="30"
+               WidthRequest="350"
+                Margin="50,10,0,0"
+               BackgroundColor="White"
+               TextColor="Black"/>
+
+        <Button x:Name="next" Text="Next" Clicked='next_Clicked'
+         WidthRequest="120" HeightRequest="10"
+         BackgroundColor="Black"
+         TextColor="orange"
+         FontAttributes="Bold"
+         FontSize="15"
+         Margin="290,30,225,0"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
