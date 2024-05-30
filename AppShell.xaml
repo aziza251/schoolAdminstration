@@ -24,58 +24,58 @@
         Route="MainPage" />
 
     <!-- Flyout Items -->
-    <FlyoutItem Title="Home" Icon="icon_home.png">
+    <FlyoutItem Title="Home" Icon="home_orange.png">
         <ShellContent
             ContentTemplate="{DataTemplate local:home}"
             Route="home" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Add new bus" Icon="icon_bus.png">
+    <FlyoutItem Title="Add new bus" Icon="orange_bus.png">
         <ShellContent ContentTemplate="{DataTemplate local:add_new_bus}"
             Route="add_new_bus" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Add new Employee" Icon="icon_employee.png">
+    <FlyoutItem Title="Add new Employee" Icon="orange_man.png">
         <ShellContent ContentTemplate="{DataTemplate local:add_new_employee}"
             Route="add_new_employee" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Assign Bus to student" Icon="icon_assign.png">
+    <FlyoutItem Title="Assign Bus to student" Icon="orange_student.png">
         <ShellContent ContentTemplate="{DataTemplate local:assign_bus_to_student}"
             Route="assign_bus_to_student" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus Student list" Icon="icon_list.png">
+    <FlyoutItem Title="Bus Student list" Icon="orange_list.png">
         <ShellContent ContentTemplate="{DataTemplate local:bus_student_list}"
             Route="bus_student_list" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus Information" Icon="icon_info.png">
+    <FlyoutItem Title="Bus Information" Icon="orange_info.png">
         <ShellContent ContentTemplate="{DataTemplate local:bus_info}"
             Route="bus_info" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Edit employee" Icon="icon_edit.png">
+    <FlyoutItem Title="Edit employee" Icon="orange_edit.png">
         <ShellContent ContentTemplate="{DataTemplate local:edit_employee}"
             Route="edit_employee" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Student Information" Icon="icon_student.png">
+    <FlyoutItem Title="Student Information" Icon="orange_student2.png">
         <ShellContent ContentTemplate="{DataTemplate local:student_info}"
             Route="student_info" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Attendance" Icon="icon_attendance.png">
+    <FlyoutItem Title="Attendance" Icon="orange_attendance.png">
         <ShellContent ContentTemplate="{DataTemplate local:attendance}"
             Route="attendance" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus Schedule" Icon="icon_schedule.png">
+    <FlyoutItem Title="Bus Schedule" Icon="orange_schedule.png">
         <ShellContent ContentTemplate="{DataTemplate local:bus_schedule}"
             Route="bus_schedule" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus RoadMap" Icon="icon_roadmap.png">
+    <FlyoutItem Title="Bus RoadMap" Icon="orange_map.png">
         <ShellContent ContentTemplate="{DataTemplate local:bus_road_map}"
             Route="bus_road_map" />
     </FlyoutItem>

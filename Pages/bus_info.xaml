@@ -9,7 +9,7 @@
             <Image Source="logo_bus.png" HorizontalOptions="Center" VerticalOptions="Center" />
         </Frame>
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
-            <Label Text="Bus Student List"
+            <Label Text="Bus Information"
         FontSize="30"
          FontAttributes="Bold"
         Margin="240,0,200,20"/>
