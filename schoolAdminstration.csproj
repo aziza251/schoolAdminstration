@@ -69,8 +69,19 @@
 	  <None Remove="Resources\Images\edit_employee.jpg" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\homewhite.png" />
+	  <None Remove="Resources\Images\home_orange.png" />
 	  <None Remove="Resources\Images\login.png" />
 	  <None Remove="Resources\Images\logo_bus.png" />
+	  <None Remove="Resources\Images\orange_attendance.png" />
+	  <None Remove="Resources\Images\orange_bus.png" />
+	  <None Remove="Resources\Images\orange_edit.png" />
+	  <None Remove="Resources\Images\orange_info.png" />
+	  <None Remove="Resources\Images\orange_list.png" />
+	  <None Remove="Resources\Images\orange_man.png" />
+	  <None Remove="Resources\Images\orange_map.png" />
+	  <None Remove="Resources\Images\orange_schedule.png" />
+	  <None Remove="Resources\Images\orange_student.png" />
+	  <None Remove="Resources\Images\orange_student2.png" />
 	  <None Remove="Resources\Images\student_ino.jpg" />
 	</ItemGroup>
 
@@ -91,6 +102,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\attendance.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\attendance1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\attendance2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\bus_info.xaml">

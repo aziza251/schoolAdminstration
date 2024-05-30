@@ -1,12 +1,91 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="schoolAdminstration.add_new_employee"
-             Title="add_new_employee">
+             x:Class="schoolAdminstration.add_new_employee">
+       
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+
+        <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="90"  HeightRequest="80" WidthRequest="80"
+             Margin="1100,10,0,0">
+            <Image Source="logo_bus.png" HorizontalOptions="Center" VerticalOptions="Center" />
+        </Frame>
+
+        <Label Text="Add New Employee"
+         FontSize="30"
+         FontAttributes="Bold"
+         Margin="490,0,200,0"/>
+
+        <Picker x:Name="employee"
+        Title="Types Of Employee"
+        HorizontalOptions="Center"
+        WidthRequest="302"
+        Margin="175, 10,200,0"/>
+
+        <Picker x:Name="employee_Name"
+Title="Choose Bus"
+HorizontalOptions="Center"
+WidthRequest="302"
+Margin="175,10,200,0"/>
+
+        <Entry BackgroundColor="LightGray"  TextColor="Black"
+  WidthRequest="300" HeightRequest="10"
+  Placeholder="Employee ID"
+  PlaceholderColor="Black"
+  Margin="170, 10,200,0"
+  VerticalTextAlignment="Center" />
+
+        <Entry BackgroundColor="LightGray"  TextColor="Black"
+WidthRequest="300" HeightRequest="10"
+Placeholder="Password"
+PlaceholderColor="Black"
+Margin="170,10,200,0"
+VerticalTextAlignment="Center" />
+
+        <Entry BackgroundColor="LightGray"  TextColor="Black"
+WidthRequest="300" HeightRequest="10"
+Placeholder="Name"
+PlaceholderColor="Black"
+Margin="170,10,200,0"
+VerticalTextAlignment="Center" />
+
+        <Entry BackgroundColor="LightGray"  TextColor="Black"
+WidthRequest="300" HeightRequest="10"
+Placeholder="Contact Info"
+PlaceholderColor="Black"
+Margin="170,10,200,0"
+VerticalTextAlignment="Center" />
+
+        <Entry BackgroundColor="LightGray"  TextColor="Black"
+WidthRequest="300" HeightRequest="10"
+Placeholder="Employee ID"
+PlaceholderColor="Black"
+Margin="170,10,200,0"
+VerticalTextAlignment="Center" />
+
+        <Entry BackgroundColor="LightGray"  TextColor="Black"
+WidthRequest="300" HeightRequest="10"
+Placeholder="Address"
+PlaceholderColor="Black"
+Margin="170,10,200,0"
+VerticalTextAlignment="Center" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+            <Button x:Name="Save" Text="Save" Clicked="Save_Clicked"
+WidthRequest="80" HeightRequest="15"
+BackgroundColor="Black"
+  TextColor="orange"
+ FontAttributes="Bold"
+ FontSize="10"
+  Margin="0,20,0,0"/>
+            
+            <Button x:Name="cancel" Text="Cancel" Clicked='cancel_Clicked'
+WidthRequest="80" HeightRequest="15"
+BackgroundColor="Black"
+  TextColor="orange"
+ FontAttributes="Bold"
+ FontSize="10"
+  Margin="0,20,0,0"/>
+
+        </StackLayout>
     </VerticalStackLayout>
 </ContentPage>
