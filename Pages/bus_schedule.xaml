@@ -4,9 +4,9 @@
              x:Class="schoolAdminstration.bus_schedule"
              >
     <ScrollView>
-    <VerticalStackLayout Spacing="20" Margin="40" >
+    <VerticalStackLayout Spacing="20" Margin="15" >
         <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="90"  HeightRequest="80" WidthRequest="80"
-             Margin="1200,0,100,0">
+             Margin="1100,0,100,0">
             <Image Source="logo_bus.png" HorizontalOptions="Center" VerticalOptions="Center" />
         </Frame>
         <StackLayout BackgroundColor="White">
@@ -18,25 +18,25 @@
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center" >
-                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="White" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
+                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="LightGray" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
                     <Label Text="Bus Name" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
                 </Frame>
-                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="White" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
+                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="LightGray" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
                     <Label Text="Bus Driver"  HorizontalTextAlignment="Center" FontAttributes="Bold"/>
                 </Frame>
-                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="White" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
+                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="LightGray" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
                     <Label Text="Assistant Name" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
                 </Frame>
-                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="White" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
+                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="LightGray" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
                     <Label Text="Address"  HorizontalTextAlignment="Center" FontAttributes="Bold"/>
                 </Frame>
-                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="White" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
+                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="LightGray" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
                     <Label Text="From" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
                 </Frame>
-                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="White" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
+                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="LightGray" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
                     <Label Text="To"  HorizontalTextAlignment="Center" FontAttributes="Bold"/>
                 </Frame>
-                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="White" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
+                <Frame BorderColor="Black" CornerRadius="0" HasShadow="False" BackgroundColor="LightGray" HeightRequest="55" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center">
                     <Label Text="Area" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
                 </Frame>
 

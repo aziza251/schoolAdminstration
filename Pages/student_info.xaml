@@ -4,9 +4,9 @@
              x:Class="schoolAdminstration.student_info"
              >
     <ScrollView>
-    <VerticalStackLayout Spacing="10" Margin="40" >
+    <VerticalStackLayout Spacing="10" Margin="10" >
         <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="90"  HeightRequest="80" WidthRequest="80"
-       Margin="1200,0,100,0">
+                 Margin="1100,0,100,0">
             <Image Source="logo_bus.png" HorizontalOptions="Center" VerticalOptions="Center" />
         </Frame>
         <StackLayout BackgroundColor="LightGray" Spacing="30" Orientation="Vertical">

@@ -3,13 +3,77 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="schoolAdminstration.bus_road_map"
              >
-    <VerticalStackLayout>
-        <Label 
+    <ScrollView>
+    <VerticalStackLayout Spacing="30" Margin="10">
+            <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="90"  HeightRequest="80" WidthRequest="80"
+                     Margin="1100,0,0,0">
+                <Image Source="logo_bus.png" HorizontalOptions="Center" VerticalOptions="Center" />
+            </Frame>
+            <Label 
             Text="Bus Road Map"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             FontAttributes="Bold"
             FontSize="Large"
             />
-    </VerticalStackLayout>
+        <Picker Title="Choose Bus" WidthRequest="400" HorizontalOptions="Center" FontAttributes="Bold"/>
+            <StackLayout Orientation="Horizontal" Spacing="148" HorizontalOptions="Center" WidthRequest="2000" Margin="5" >
+                <StackLayout Orientation="Horizontal" Spacing="5">
+                    <Image Source="station.png" WidthRequest="20"/>
+                    <Label Text="Station Name" FontAttributes="Bold" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="5">
+                    <Image Source="student.png" WidthRequest="20"/>
+                    <Label Text="Student Name" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="5">
+                    <Image Source="time.png" WidthRequest="20"/>
+                    <Label Text="Arrival Time" FontAttributes="Bold" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="5">
+                    <Image Source="time.png" WidthRequest="20"/>
+                    <Label Text="Dropped Time" FontAttributes="Bold" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="205" BackgroundColor="LightGray" WidthRequest="2000" HeightRequest="50" > 
+                <Label Text="Uskudar" VerticalTextAlignment="Center"/>
+                <Label Text="Ethan Martinez" VerticalTextAlignment="Center"/>
+                <Label Text="07:00 AM" VerticalTextAlignment="Center"/>
+                <Label Text="02:30 AM" VerticalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="200" BackgroundColor="LightGray" WidthRequest="2000" HeightRequest="50">
+                <Label Text="Fistik Agaci" VerticalTextAlignment="Center"/>
+                <Label Text="Sophia Nguyen" VerticalTextAlignment="Center"/>
+                <Label Text="07:10 AM" VerticalTextAlignment="Center"/>
+                <Label Text="02:37 AM" VerticalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="205" BackgroundColor="LightGray" WidthRequest="2000" HeightRequest="50">
+                <Label Text="Baglarbasi" VerticalTextAlignment="Center"/>
+                <Label Text="Liam Patelson" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                <Label Text="07:15 AM" VerticalTextAlignment="Center"/>
+                <Label Text="02:45 AM" VerticalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="217" BackgroundColor="LightGray" WidthRequest="2000" HeightRequest="50">
+                <Label Text="Kisikli" VerticalTextAlignment="Center"/>
+                <Label Text="  Noah Garcia" VerticalTextAlignment="Center"/>
+                <Label Text="07:25 AM" VerticalTextAlignment="Center"/>
+                <Label Text="02:55 AM" VerticalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="210" BackgroundColor="LightGray" WidthRequest="2000" HeightRequest="50">
+                <Label Text="Burgurlu" VerticalTextAlignment="Center"/>
+                <Label Text="Ava Robinson" VerticalTextAlignment="Center"/>
+                <Label Text="07:30 AM" VerticalTextAlignment="Center"/>
+                <Label Text="03:05 AM" VerticalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="218" BackgroundColor="LightGray" WidthRequest="2000" HeightRequest="50">
+                <Label Text="Umraniye" VerticalTextAlignment="Center"/>
+                <Label Text="James Lee" VerticalTextAlignment="Center"/>
+                <Label Text="07:35 AM" VerticalTextAlignment="Center"/>
+                <Label Text="03:10 AM" VerticalTextAlignment="Center"/>
+            </StackLayout>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

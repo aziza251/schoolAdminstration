@@ -82,7 +82,10 @@
 	  <None Remove="Resources\Images\orange_schedule.png" />
 	  <None Remove="Resources\Images\orange_student.png" />
 	  <None Remove="Resources\Images\orange_student2.png" />
+	  <None Remove="Resources\Images\station.png" />
+	  <None Remove="Resources\Images\student.png" />
 	  <None Remove="Resources\Images\student_ino.jpg" />
+	  <None Remove="Resources\Images\time.png" />
 	</ItemGroup>
 
 	<ItemGroup>

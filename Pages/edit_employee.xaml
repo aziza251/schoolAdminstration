@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="schoolAdminstration.edit_employee"
              >
-    <VerticalStackLayout Spacing="20" Margin="150">
+    <VerticalStackLayout Spacing="20" Margin="98">
+        <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="90"  HeightRequest="80" WidthRequest="80"
+            Margin="1100,0,0,0">
+            <Image Source="logo_bus.png" HorizontalOptions="Center" VerticalOptions="Center" />
+        </Frame>
         <Label 
             Text="Edit Bus Employee"
             HorizontalOptions="Center"
