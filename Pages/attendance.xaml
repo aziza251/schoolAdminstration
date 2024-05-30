@@ -42,6 +42,7 @@
                 FontAttributes="Bold"
                 FontSize="Medium"
                 WidthRequest="300"
+                Clicked='attendance25_Clicked'
                 />
 
 

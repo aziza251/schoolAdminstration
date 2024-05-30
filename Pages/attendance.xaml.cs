@@ -6,4 +6,9 @@ public partial class attendance : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void attendance25_Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("//attendance1");
+    }
 }

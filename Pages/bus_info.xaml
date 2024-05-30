@@ -31,7 +31,7 @@ VerticalTextAlignment="Center"/>
 
             <Entry BackgroundColor="LightGray"  TextColor="Black"
 WidthRequest="200" HeightRequest="10"
-Placeholder="Assisstant Name"
+Placeholder="Assistant Name"
 PlaceholderColor="Black"
 VerticalTextAlignment="Center"/>
 
