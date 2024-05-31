@@ -72,6 +72,7 @@
 	  <None Remove="Resources\Images\home_orange.png" />
 	  <None Remove="Resources\Images\login.png" />
 	  <None Remove="Resources\Images\logo_bus.png" />
+	  <None Remove="Resources\Images\new_employe.jpg" />
 	  <None Remove="Resources\Images\orange_attendance.png" />
 	  <None Remove="Resources\Images\orange_bus.png" />
 	  <None Remove="Resources\Images\orange_edit.png" />

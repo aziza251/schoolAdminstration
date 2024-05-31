@@ -4,7 +4,7 @@
              x:Class="schoolAdminstration.home"
              >
          
-    <VerticalStackLayout>
+    <VerticalStackLayout BackgroundColor="White">
        
 
             <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="90"  HeightRequest="80" WidthRequest="80"
@@ -18,7 +18,7 @@
                          WidthRequest="170"
                          Clicked="add_new_bus_Clicked"/>
 
-            <ImageButton Source="addnew_employee.png" 
+            <ImageButton Source="new_employe.jpg" 
                          HeightRequest="170"
                          WidthRequest="170"
                          Clicked="ImageButton_Clicked"/>
