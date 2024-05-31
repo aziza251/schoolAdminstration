@@ -95,11 +95,7 @@
         Route="login" />
 
     </FlyoutItem>
-    <FlyoutItem FlyoutItemIsVisible="False">
-        <ShellContent ContentTemplate="{DataTemplate local:login2}"
-         Route="login2" />
 
-    </FlyoutItem>
     <FlyoutItem FlyoutItemIsVisible="False">
         <ShellContent ContentTemplate="{DataTemplate local:login2}"
          Route="login2" />
