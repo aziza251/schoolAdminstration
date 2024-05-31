@@ -19,10 +19,12 @@
         </DataTemplate>
     </Shell.ItemTemplate>
 
-    <ShellContent
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <FlyoutItem FlyoutItemIsVisible="False">
+        <ShellContent
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+    
     <!-- Flyout Items -->
     <FlyoutItem Title="Home" Icon="home_orange.png">
         <ShellContent
@@ -75,22 +77,34 @@
             Route="bus_schedule" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Bus RoadMap" Icon="orange_map.png">
+    <FlyoutItem Title="Bus RoadMap" Icon="orange_map.png" FlyoutItemIsVisible="True">
         <ShellContent ContentTemplate="{DataTemplate local:bus_road_map}"
             Route="bus_road_map" />
     </FlyoutItem>
 
-    <!-- Additional ShellContent items -->
-    <ShellContent ContentTemplate="{DataTemplate local:attendance1}"
-        Route="attendance1" />
-
-    <ShellContent ContentTemplate="{DataTemplate local:attendance2}"
-        Route="attendance2" />
-
-    <ShellContent ContentTemplate="{DataTemplate local:login}"
+    <FlyoutItem FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate local:attendance1}"
+            Route="attendance1" />
+    </FlyoutItem>
+    <FlyoutItem FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate local:attendance2}"
+           Route="attendance2" />
+    </FlyoutItem>
+    <FlyoutItem FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate local:login}"
         Route="login" />
 
-    <ShellContent ContentTemplate="{DataTemplate local:login2}"
-        Route="login2" />
+    </FlyoutItem>
+    <FlyoutItem FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate local:login2}"
+         Route="login2" />
+
+    </FlyoutItem>
+    <FlyoutItem FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate local:login2}"
+         Route="login2" />
+    </FlyoutItem>
+    
+    
 
 </Shell>
