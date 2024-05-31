@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="schoolAdminstration.attendance"
              >
+    <ScrollView>
     <VerticalStackLayout Spacing="15">
         <Frame BorderColor="Black" BackgroundColor="Black" CornerRadius="90"  HeightRequest="80" WidthRequest="80"
                Margin="1100,0,0,0">
@@ -47,4 +48,5 @@
 
 
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
